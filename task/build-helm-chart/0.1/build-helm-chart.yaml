@@ -45,7 +45,7 @@ spec:
     name: IMAGE_URL
   steps:
   - name: package-and-push
-    image: quay.io/konflux-ci/tools@sha256:e20e5ac50aaef85b6383825984fa402a2f3e7714cf49a34e9692ecaf85d00522
+    image: quay.io/konflux-ci/tools@sha256:8572e3b70917a131261897d610869fe7d82bd4c4ae35d59cb81cc11624c69db9
     env:
     - name: REPO
       value: "$(params.REPO)"
